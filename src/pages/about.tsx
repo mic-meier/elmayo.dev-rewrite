@@ -2,10 +2,10 @@ import Layout from '@/components/Layout'
 import {SITE_NAME} from '@/lib/constants'
 import Link from 'next/link'
 
-export default function IndexPage() {
+export default function AboutPage() {
   return (
     <div>
-      <Layout title={`${SITE_NAME} | HOME`}>
+      <Layout title={`${SITE_NAME} | ABOUT`}>
         <p>Under construction. Stay tuned...</p>
         <p>
           But while you&apos;re here, why not check out the{' '}
